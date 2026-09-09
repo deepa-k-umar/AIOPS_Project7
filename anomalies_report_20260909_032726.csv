@@ -1,0 +1,78 @@
+timestamp,level,message,level_score,message_length,severity_score,anomaly,is_anomaly
+2026-06-27 10:00:38,WARNING,User logged in,2,14,1,-1,❌ Anomaly
+2026-06-27 10:01:09,CRITICAL,Transaction rollback due to deadlock,4,36,1,-1,❌ Anomaly
+2026-06-27 10:02:00,WARNING,Slow query detected: SELECT * FROM orders,2,41,3,-1,❌ Anomaly
+2026-06-27 10:01:39,ERROR,Failed login attempt detected,3,29,4,-1,❌ Anomaly
+2026-06-27 10:02:20,CRITICAL,User logged in,4,14,1,-1,❌ Anomaly
+2026-06-27 10:03:06,CRITICAL,Database connection failed,4,26,4,-1,❌ Anomaly
+2026-06-27 10:02:22,WARNING,"Multiple failed login attempts, account locked",2,46,4,-1,❌ Anomaly
+2026-06-27 10:02:38,ERROR,Database connection failed,3,26,4,-1,❌ Anomaly
+2026-06-27 10:06:45,ERROR,Unauthorized access attempt to admin panel,3,42,1,-1,❌ Anomaly
+2026-06-27 10:07:25,CRITICAL,Service health check failed,4,27,4,-1,❌ Anomaly
+2026-06-27 10:02:02,CRITICAL,Transaction rollback due to deadlock,4,36,1,-1,❌ Anomaly
+2026-06-27 10:10:20,CRITICAL,Failed to load configuration file,4,33,4,-1,❌ Anomaly
+2026-06-27 10:04:10,ERROR,Slow query detected: SELECT * FROM orders,3,41,3,-1,❌ Anomaly
+2026-06-27 10:11:00,ERROR,"Multiple failed login attempts, account locked",3,46,4,-1,❌ Anomaly
+2026-06-27 10:11:10,ERROR,Slow query detected: SELECT * FROM orders,3,41,3,-1,❌ Anomaly
+2026-06-27 10:07:00,CRITICAL,CPU usage at 95%,4,16,1,-1,❌ Anomaly
+2026-06-27 10:09:28,ERROR,Failed login attempt detected,3,29,4,-1,❌ Anomaly
+2026-06-27 10:10:40,ERROR,Slow query detected: SELECT * FROM orders,3,41,3,-1,❌ Anomaly
+2026-06-27 10:08:03,ERROR,"Multiple failed login attempts, account locked",3,46,4,-1,❌ Anomaly
+2026-06-27 10:05:34,ERROR,"Multiple failed login attempts, account locked",3,46,4,-1,❌ Anomaly
+2026-06-27 10:11:48,ERROR,Service health check failed,3,27,4,-1,❌ Anomaly
+2026-06-27 10:15:45,CRITICAL,Service health check failed,4,27,4,-1,❌ Anomaly
+2026-06-27 10:17:05,CRITICAL,User logged in,4,14,1,-1,❌ Anomaly
+2026-06-27 10:14:16,CRITICAL,High I/O wait time on primary disk,4,34,1,-1,❌ Anomaly
+2026-06-27 10:03:39,WARNING,User logged in,2,14,1,-1,❌ Anomaly
+2026-06-27 10:11:06,WARNING,Unauthorized access attempt to admin panel,2,42,1,-1,❌ Anomaly
+2026-06-27 10:19:50,WARNING,Failed to load configuration file,2,33,4,-1,❌ Anomaly
+2026-06-27 10:03:59,WARNING,User logged in,2,14,1,-1,❌ Anomaly
+2026-06-27 10:12:57,WARNING,Unauthorized access attempt to admin panel,2,42,1,-1,❌ Anomaly
+2026-06-27 10:25:15,CRITICAL,Unauthorized access attempt to admin panel,4,42,1,-1,❌ Anomaly
+2026-06-27 10:05:07,ERROR,Failed to load configuration file,3,33,4,-1,❌ Anomaly
+2026-06-27 10:25:40,WARNING,"Multiple failed login attempts, account locked",2,46,4,-1,❌ Anomaly
+2026-06-27 10:15:45,CRITICAL,CPU usage at 95%,4,16,1,-1,❌ Anomaly
+2026-06-27 10:29:00,ERROR,Failed to load configuration file,3,33,4,-1,❌ Anomaly
+2026-06-27 10:06:25,WARNING,"Multiple failed login attempts, account locked",2,46,4,-1,❌ Anomaly
+2026-06-27 10:26:36,CRITICAL,User logged in,4,14,1,-1,❌ Anomaly
+2026-06-27 10:15:02,CRITICAL,User updated profile,4,20,1,-1,❌ Anomaly
+2026-06-27 10:08:01,WARNING,Slow query detected: SELECT * FROM orders,2,41,3,-1,❌ Anomaly
+2026-06-27 10:33:00,ERROR,User logged in,3,14,1,-1,❌ Anomaly
+2026-06-27 10:16:48,WARNING,User logged in,2,14,1,-1,❌ Anomaly
+2026-06-27 10:08:30,CRITICAL,"Multiple failed login attempts, account locked",4,46,4,-1,❌ Anomaly
+2026-06-27 10:08:34,ERROR,User logged in,3,14,1,-1,❌ Anomaly
+2026-06-27 10:43:10,CRITICAL,Database connection failed,4,26,4,-1,❌ Anomaly
+2026-06-27 10:18:26,CRITICAL,User logged out,4,15,1,-1,❌ Anomaly
+2026-06-27 10:18:46,CRITICAL,High I/O wait time on primary disk,4,34,1,-1,❌ Anomaly
+2026-06-27 10:28:54,ERROR,User logged in,3,14,1,-1,❌ Anomaly
+2026-06-27 10:09:57,ERROR,Service health check failed,3,27,4,-1,❌ Anomaly
+2026-06-27 10:31:00,CRITICAL,"Multiple failed login attempts, account locked",4,46,4,-1,❌ Anomaly
+2026-06-27 10:21:00,WARNING,"Multiple failed login attempts, account locked",2,46,4,-1,❌ Anomaly
+2026-06-27 10:32:24,CRITICAL,CPU usage at 95%,4,16,1,-1,❌ Anomaly
+2026-06-27 10:11:02,ERROR,Unauthorized access attempt to admin panel,3,42,1,-1,❌ Anomaly
+2026-06-27 10:22:22,CRITICAL,Unhandled exception in payment module,4,37,1,-1,❌ Anomaly
+2026-06-27 10:11:12,WARNING,Failed to load configuration file,2,33,4,-1,❌ Anomaly
+2026-06-27 10:23:02,ERROR,Failed to load configuration file,3,33,4,-1,❌ Anomaly
+2026-06-27 10:23:54,ERROR,User logged in,3,14,1,-1,❌ Anomaly
+2026-06-27 11:00:55,ERROR,Slow query detected: SELECT * FROM orders,3,41,3,-1,❌ Anomaly
+2026-06-27 11:02:10,CRITICAL,Failed login attempt detected,4,29,4,-1,❌ Anomaly
+2026-06-27 10:37:24,ERROR,User logged in,3,14,1,-1,❌ Anomaly
+2026-06-27 10:12:49,ERROR,Failed login attempt detected,3,29,4,-1,❌ Anomaly
+2026-06-27 10:13:09,ERROR,Service health check failed,3,27,4,-1,❌ Anomaly
+2026-06-27 10:26:20,CRITICAL,User logged in,4,14,1,-1,❌ Anomaly
+2026-06-27 10:26:22,ERROR,Slow query detected: SELECT * FROM orders,3,41,3,-1,❌ Anomaly
+2026-06-27 10:26:30,ERROR,Failed to load configuration file,3,33,4,-1,❌ Anomaly
+2026-06-27 10:26:58,ERROR,Failed to load configuration file,3,33,4,-1,❌ Anomaly
+2026-06-27 11:08:20,CRITICAL,User logged out,4,15,1,-1,❌ Anomaly
+2026-06-27 10:41:15,WARNING,"Multiple failed login attempts, account locked",2,46,4,-1,❌ Anomaly
+2026-06-27 11:09:50,WARNING,"Multiple failed login attempts, account locked",2,46,4,-1,❌ Anomaly
+2026-06-27 10:56:28,CRITICAL,User logged in,4,14,1,-1,❌ Anomaly
+2026-06-27 10:42:39,ERROR,Slow query detected: SELECT * FROM orders,3,41,3,-1,❌ Anomaly
+2026-06-27 10:14:31,ERROR,Unauthorized access attempt to admin panel,3,42,1,-1,❌ Anomaly
+2026-06-27 10:14:47,WARNING,Slow query detected: SELECT * FROM orders,2,41,3,-1,❌ Anomaly
+2026-06-27 11:00:08,ERROR,Service health check failed,3,27,4,-1,❌ Anomaly
+2026-06-27 11:02:44,WARNING,Unauthorized access attempt to admin panel,2,42,1,-1,❌ Anomaly
+2026-06-27 10:47:06,WARNING,"Multiple failed login attempts, account locked",2,46,4,-1,❌ Anomaly
+2026-06-27 10:47:45,CRITICAL,User session expired,4,20,1,-1,❌ Anomaly
+2026-06-27 11:06:12,WARNING,Failed to load configuration file,2,33,4,-1,❌ Anomaly
+2026-06-27 11:06:28,CRITICAL,CPU usage at 95%,4,16,1,-1,❌ Anomaly
